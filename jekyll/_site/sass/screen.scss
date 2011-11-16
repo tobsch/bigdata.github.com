@@ -91,11 +91,14 @@ p {
 		}
 	}
 
-	#content {
-		width: 600px;
-		padding: 20px;
+	#stage {
+		width: 640px;
 		float: left;
 		border: 5px solid black;
+		
+		#content {
+			
+		}
 		
 		#footer {
 			width: 100%;

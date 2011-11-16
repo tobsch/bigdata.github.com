@@ -71,29 +71,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 body {
   margin: 0;
   padding: 0;
-  font-family: "Droid Serif", arial, tahoma, verdana, sans-serif;
+  font-family: "Helvetica", arial, tahoma, verdana, sans-serif;
   text-rendering: optimizeLegibility;
   font-size: 16px;
   letter-spacing: 0.1px;
   line-height: 1.3em;
-  background: white !important;
-  background: url("");
+  background: white url("../images/body_bg.png");
 }
-/* line 50, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 body ::-moz-selection {
-  background: red;
-  color: black;
+  background: black;
+  color: #5aff41;
 }
-/* line 55, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 body ::selection {
-  background: red;
-  color: black;
+  background: black;
+  color: #5aff41;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 /* line 66, ../sass/screen.scss */
@@ -111,22 +111,99 @@ p {
   float: left;
   width: 160px;
 }
-/* line 94, ../sass/screen.scss */
-#wrapper #content {
-  width: 600px;
-  padding: 20px;
+/* line 78, ../sass/screen.scss */
+#wrapper #left_bar h1 {
+  display: block;
+  height: 172px;
+  width: 160px;
+  background: url("../images/logo.png");
+  text-indent: -9999px;
+}
+/* line 88, ../sass/screen.scss */
+#wrapper #left_bar #nav ul {
+  margin-top: 60px;
+}
+/* line 91, ../sass/screen.scss */
+#wrapper #left_bar #nav ul li {
+  text-align: right;
+  height: 37px;
+}
+/* line 95, ../sass/screen.scss */
+#wrapper #left_bar #nav ul li span {
+  height: 40px;
+  padding: 10px;
+  padding-right: 40px;
+  text-align: right;
+  background-color: black;
+  color: white;
+}
+/* line 103, ../sass/screen.scss */
+#wrapper #left_bar #nav ul li span:hover {
+  background-color: #5aff41;
+  color: black;
+  padding-right: 60px;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+/* line 119, ../sass/screen.scss */
+#wrapper #stage {
+  background: white;
+  width: 640px;
   float: left;
   border: 5px solid black;
 }
-/* line 100, ../sass/screen.scss */
-#wrapper #content #footer {
+/* line 125, ../sass/screen.scss */
+#wrapper #stage #content {
+  margin: 20px;
+}
+/* line 128, ../sass/screen.scss */
+#wrapper #stage #content .post {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid black;
+}
+/* line 135, ../sass/screen.scss */
+#wrapper #stage #footer {
   width: 100%;
   height: 200px;
   background-color: black;
   color: white;
 }
-/* line 108, ../sass/screen.scss */
+/* line 141, ../sass/screen.scss */
+#wrapper #stage #footer #social_media {
+  margin: 20px;
+  width: 42%;
+  float: left;
+}
+/* line 147, ../sass/screen.scss */
+#wrapper #stage #footer #imprint {
+  margin: 20px;
+  width: 42%;
+  float: left;
+}
+/* line 155, ../sass/screen.scss */
 #wrapper #right_bar {
   float: left;
   width: 160px;
+  margin-left: 10px;
+}
+/* line 160, ../sass/screen.scss */
+#wrapper #right_bar #sponsors {
+  background: white;
+  padding: 10px;
+  border: 5px solid black;
+}
+/* line 165, ../sass/screen.scss */
+#wrapper #right_bar #sponsors h1 {
+  font-size: 16px;
+}
+/* line 169, ../sass/screen.scss */
+#wrapper #right_bar #sponsors img {
+  display: block;
+  background: black;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 10px;
 }

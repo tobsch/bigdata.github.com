@@ -1,12 +1,92 @@
----
-layout: default
-title: Bigdata Roundtable Hamburg 
----
-<div id="home">
-  <h1>News</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
+<!DOCTYPE html>
+<head>
+  <meta charset='utf-8' />
+  <title>BigData-Roundtable</title>
+  
+  <meta name="description" content="bitte ausfuellen." />
+  <meta name="keywords" content="bitte ausfuellen." />
+  
+  <!-- CSS goes here -->
+  <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  
+  <!-- Conditional comments go here -->
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+  
+  <!-- JavaScript goes here -->
+  <script src="javascript/jquery-1.7.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="javascript/modernizr.custom.40990.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  
+  <script>
+    $(document).ready(function() { 
+      $('#nav span').click(function(){
+        $('#nav span').animate({scrollLeft: '-=20'}, "slow");
+      });
+    };
+  </script>
+</head>
+
+<body>
+
+<div id="wrapper">
+  
+    <section id="left_bar">
+      <h1 id="logo">BigData-Roundtable</h1>
+
+      <nav id="nav">
+        <ul>
+          <li><a href="#"><span>Blog</span></a></li>
+          <li><a href="#"><span>Teilnehmer</span></a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <section id="stage">
+      <section id="content">
+      <div class="post">
+      <h1>Dies ist eine sehr schoene Headline</h1>
+      <p>Die Elefanten (Elephantidae) bilden eine Familie der Rüsseltiere. Diese Familie umfasst alle heute noch lebenden Vertreter der Rüsseltiere.</p>
+      <p>Elefanten sind die größten noch lebenden Landtiere. Schon bei der Geburt wiegt ein Kalb bis zu 100 Kilogramm. Die Tragzeit ist mit 20 bis 22 Monaten die längste aller Landsäugetiere. Je nach Art kann ein Elefant im Durchschnitt zwischen zwei und fünf Tonnen Körpergewicht und eine Größe von bis zu vier Metern erreichen. Das größte bekannte Exemplar war ein am 4. April 1978 im Damaraland (Namibia) erlegter Bulle, der 4,21 Meter groß und 10,39 Meter lang war. Der älteste Elefant lebte im Zoo von Taipeh und wurde 86 Jahre alt.</p>
+      </div>
+      
+      <div class="post">
+      <h1>Dies ist eine sehr schoene Headline</h1>
+      <p>Die Elefanten (Elephantidae) bilden eine Familie der Rüsseltiere. Diese Familie umfasst alle heute noch lebenden Vertreter der Rüsseltiere.</p>
+      <p>Elefanten sind die größten noch lebenden Landtiere. Schon bei der Geburt wiegt ein Kalb bis zu 100 Kilogramm. Die Tragzeit ist mit 20 bis 22 Monaten die längste aller Landsäugetiere. Je nach Art kann ein Elefant im Durchschnitt zwischen zwei und fünf Tonnen Körpergewicht und eine Größe von bis zu vier Metern erreichen. Das größte bekannte Exemplar war ein am 4. April 1978 im Damaraland (Namibia) erlegter Bulle, der 4,21 Meter groß und 10,39 Meter lang war. Der älteste Elefant lebte im Zoo von Taipeh und wurde 86 Jahre alt.</p>
+      </div>
+      
+      <div class="post">
+      <h1>Dies ist eine sehr schoene Headline</h1>
+      <p>Die Elefanten (Elephantidae) bilden eine Familie der Rüsseltiere. Diese Familie umfasst alle heute noch lebenden Vertreter der Rüsseltiere.</p>
+      <p>Elefanten sind die größten noch lebenden Landtiere. Schon bei der Geburt wiegt ein Kalb bis zu 100 Kilogramm. Die Tragzeit ist mit 20 bis 22 Monaten die längste aller Landsäugetiere. Je nach Art kann ein Elefant im Durchschnitt zwischen zwei und fünf Tonnen Körpergewicht und eine Größe von bis zu vier Metern erreichen. Das größte bekannte Exemplar war ein am 4. April 1978 im Damaraland (Namibia) erlegter Bulle, der 4,21 Meter groß und 10,39 Meter lang war. Der älteste Elefant lebte im Zoo von Taipeh und wurde 86 Jahre alt.</p>
+      </div>
+      </section>
+
+      <footer id="footer">
+        <section id="social_media">
+          Social Media Gedöns
+        </section>
+  
+        <section id="imprint">
+          Name Nachname <br />
+          Straße Nummer <br />
+          22523 Hamburg
+        </section>
+      </footer>
+    </section>
+
+    <section id="right_bar">
+      <section id="sponsors">
+        <h1>Sponsoren</h1>
+        <img src="#" alt="img" />
+        <img src="#" alt="img" />
+        <img src="#" alt="img" />
+      </section>
+    </section>
+
 </div>
+  
+</body>

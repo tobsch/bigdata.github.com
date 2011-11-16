@@ -112,20 +112,19 @@ p {
   width: 160px;
 }
 /* line 94, ../sass/screen.scss */
-#wrapper #content {
-  width: 600px;
-  padding: 20px;
+#wrapper #stage {
+  width: 640px;
   float: left;
   border: 5px solid black;
 }
-/* line 100, ../sass/screen.scss */
-#wrapper #content #footer {
-  width: 100%;
+/* line 103, ../sass/screen.scss */
+#wrapper #stage #footer {
+  width: 101%;
   height: 200px;
   background-color: black;
   color: white;
 }
-/* line 108, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 #wrapper #right_bar {
   float: left;
   width: 160px;

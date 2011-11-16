@@ -31,7 +31,7 @@ $lightblue: #9F0057;
 $red: red;
 
 // Typo
-$regular: "Droid Serif";
+$regular: "Helvetica";
 $bold: "AbsaraBoldRegular";
 $italic: "AbsaraBoldItalic";
 $headline: "rockstar_gothic";
@@ -44,23 +44,23 @@ body {
 	font-size: 16px;
 	letter-spacing: 0.1px;
 	line-height: 1.3em;
-	background: white !important;
-	background: url('');
+	background: white url('../images/body_bg.png');
 	
 	::-moz-selection {
-  		background: red;
-  		color: black;
+  		background: black;
+  		color: #5aff41;
   	}
 	
 	::selection {
-  		background: red;
-  		color: black;
+  		background: black;
+  		color: #5aff41;
   	}
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 p {
@@ -76,45 +76,103 @@ p {
 		width: 160px;
 	
 		h1 {
-		
+			display: block;
+			height: 172px;
+			width: 160px;
+			background: url('../images/logo.png');
+			text-indent: -9999px;
 		}
 	
 		#nav {
 		
 			ul {
-			
-				li {
+				margin-top: 60px;
 				
+				li {
+					text-align: right;
+					height: 37px;
+					
+					span {
+						height: 40px;
+						padding: 10px;
+						padding-right: 40px;
+						text-align: right;
+						background-color: black;
+						color: white;
+						
+						&:hover {
+							background-color: #5aff41;
+							color: black;
+							padding-right: 60px;
+							-webkit-transition: all .5s;
+							-moz-transition: all .5s;
+							-o-transition: all .5s;
+							transition: all .5s;
+						};
+					}
 				}
 			}
 
 		}
 	}
 
-	#content {
-		width: 600px;
-		padding: 20px;
+	#stage {
+		background: white;
+		width: 640px;
 		float: left;
 		border: 5px solid black;
+		
+		#content {
+			margin: 20px;
+			
+			.post {
+				margin-bottom: 20px;
+				padding-bottom: 10px;
+				border-bottom: 5px solid black;
+			}
+		}
 		
 		#footer {
 			width: 100%;
 			height: 200px;
 			background-color: black;
 			color: white;
+			
+			#social_media {
+				margin: 20px;
+				width: 42%;
+				float: left;
+			}
+			
+			#imprint {
+				margin: 20px;
+				width: 42%;
+				float: left;
+			}
 		}
 	}
 
 	#right_bar {
 		float: left;
 		width: 160px;
+		margin-left: 10px;
 		
-		h2 {
-		
-		}
-	
-		img {
-		
+		#sponsors {
+			background: white;
+			padding: 10px;
+			border: 5px solid black;
+			
+			h1 {
+				font-size: 16px;
+			}
+
+			img {
+				display: block;
+				background: black;
+				height: 130px;
+				width: 130px;
+				margin-bottom: 10px;
+			}
 		}
 	}
 
