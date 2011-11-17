@@ -3,11 +3,11 @@ layout: default
 title: Bigdata Roundtable Hamburg 
 ---
 <div id="home">
-  <h1>News</h1>
+  <h1>{{page.title}}</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <div class="post">
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         <p>{{ post.content }}</p>
         <div id="date">veröffentlicht am {{ post.date | date_to_string }}</div>
       </div>
