@@ -100,25 +100,32 @@ h1, h2, h3, h4, h5, h6 {
 a, a:link, a:hover, a:visited, a:active {
   color: black;
   text-decoration: none;
+  border-bottom: 2px solid black;
+}
+/* line 73, ../_sass/screen.scss */
+a:hover, a:link:hover, a:hover:hover, a:visited:hover, a:active:hover {
+  background-color: #5aff41;
+  color: black;
+  border-bottom: 2px solid #5aff41;
 }
 
-/* line 73, ../_sass/screen.scss */
+/* line 80, ../_sass/screen.scss */
 p {
   font-size: 14px;
   margin-bottom: 10px;
 }
 
-/* line 78, ../_sass/screen.scss */
+/* line 85, ../_sass/screen.scss */
 #wrapper {
   width: 980px;
   margin: 50px auto;
 }
-/* line 82, ../_sass/screen.scss */
+/* line 89, ../_sass/screen.scss */
 #wrapper #left_bar {
   float: left;
   width: 160px;
 }
-/* line 86, ../_sass/screen.scss */
+/* line 93, ../_sass/screen.scss */
 #wrapper #left_bar h1 {
   display: block;
   height: 172px;
@@ -126,16 +133,16 @@ p {
   background: url("../images/logo.png");
   text-indent: -9999px;
 }
-/* line 96, ../_sass/screen.scss */
+/* line 103, ../_sass/screen.scss */
 #wrapper #left_bar #nav ul {
   margin-top: 60px;
 }
-/* line 99, ../_sass/screen.scss */
+/* line 106, ../_sass/screen.scss */
 #wrapper #left_bar #nav ul li {
   text-align: right;
   height: 36px;
 }
-/* line 103, ../_sass/screen.scss */
+/* line 110, ../_sass/screen.scss */
 #wrapper #left_bar #nav ul li span {
   height: 40px;
   padding: 10px;
@@ -144,7 +151,7 @@ p {
   background-color: black;
   color: white;
 }
-/* line 111, ../_sass/screen.scss */
+/* line 118, ../_sass/screen.scss */
 #wrapper #left_bar #nav ul li span:hover {
   background-color: #5aff41;
   color: black;
@@ -154,36 +161,36 @@ p {
   -o-transition: all .5s;
   transition: all .5s;
 }
-/* line 127, ../_sass/screen.scss */
+/* line 134, ../_sass/screen.scss */
 #wrapper #stage {
   background: white;
   width: 640px;
   float: left;
   border: 5px solid black;
 }
-/* line 133, ../_sass/screen.scss */
+/* line 140, ../_sass/screen.scss */
 #wrapper #stage #content {
   margin: 20px;
 }
-/* line 136, ../_sass/screen.scss */
+/* line 143, ../_sass/screen.scss */
 #wrapper #stage #content #home h1 {
   display: none;
 }
-/* line 140, ../_sass/screen.scss */
+/* line 147, ../_sass/screen.scss */
 #wrapper #stage #content .post, #wrapper #stage #content .attendee {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 5px solid black;
 }
-/* line 145, ../_sass/screen.scss */
+/* line 152, ../_sass/screen.scss */
 #wrapper #stage #content .post h2, #wrapper #stage #content .attendee h2 {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
-/* line 149, ../_sass/screen.scss */
+/* line 156, ../_sass/screen.scss */
 #wrapper #stage #content .post h2 a, #wrapper #stage #content .attendee h2 a {
   color: black;
 }
-/* line 153, ../_sass/screen.scss */
+/* line 160, ../_sass/screen.scss */
 #wrapper #stage #content .post .date, #wrapper #stage #content .attendee .date {
   display: block;
   color: #666;
@@ -191,32 +198,32 @@ p {
   line-height: 12px;
   margin-bottom: 15px;
 }
-/* line 164, ../_sass/screen.scss */
+/* line 171, ../_sass/screen.scss */
 #wrapper #stage #content .attendee h2 {
   padding-top: 2px;
 }
-/* line 168, ../_sass/screen.scss */
+/* line 175, ../_sass/screen.scss */
 #wrapper #stage #content .attendee img {
   float: left;
   border: 5px solid black;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 177, ../_sass/screen.scss */
+/* line 184, ../_sass/screen.scss */
 #wrapper #stage #footer {
   width: 100%;
   height: 200px;
   background-color: black;
   color: white;
 }
-/* line 183, ../_sass/screen.scss */
+/* line 190, ../_sass/screen.scss */
 #wrapper #stage #footer #social_media {
   margin: 20px;
   width: 42%;
   float: left;
   font-size: 12px;
 }
-/* line 190, ../_sass/screen.scss */
+/* line 197, ../_sass/screen.scss */
 #wrapper #stage #footer #imprint {
   margin: 20px;
   width: 42%;
@@ -224,24 +231,26 @@ p {
   font-size: 12px;
   text-align: right;
 }
-/* line 200, ../_sass/screen.scss */
+/* line 207, ../_sass/screen.scss */
 #wrapper #right_bar {
   float: left;
   width: 160px;
   margin-left: 10px;
 }
-/* line 205, ../_sass/screen.scss */
+/* line 212, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors {
   background: white;
   padding: 10px;
   border: 5px solid black;
 }
-/* line 210, ../_sass/screen.scss */
+/* line 217, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors h1 {
   font-size: 16px;
 }
-/* line 214, ../_sass/screen.scss */
+/* line 221, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors a {
   display: block;
   width: 130px;
+  border: none;
+  background: none;
 }

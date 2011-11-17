@@ -68,6 +68,13 @@ h1, h2, h3, h4, h5, h6 {
 a, a:link, a:hover, a:visited, a:active {
 	@include link-colors(black);
 	text-decoration: none;
+	border-bottom: 2px solid black;
+	
+	&:hover {
+		background-color: #5aff41;
+		color: black;
+		border-bottom: 2px solid #5aff41;
+	};
 }
 
 p {
@@ -143,7 +150,7 @@ p {
 				border-bottom: 5px solid black;
 				
 				h2 {
-					margin-bottom: 6px;
+					margin-bottom: 10px;
 				}
 				
 				h2 a {
@@ -214,6 +221,8 @@ p {
 			a {
 				display: block;
  				width: 130px;
+				border: none;
+				background: none;
 			}
 		}
 	}
