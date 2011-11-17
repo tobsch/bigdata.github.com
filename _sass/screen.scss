@@ -45,7 +45,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-size: 15px;
 	letter-spacing: 0.1px;
-	line-height: 1.3em;
+	line-height: 1.2em;
 	background: white url('../images/body_bg.png');
 	
 	::-moz-selection {
@@ -65,7 +65,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 }
 
+a, a:link, a:hover, a:visited, a:active {
+	@include link-colors(black);
+	text-decoration: none;
+}
+
 p {
+	font-size: 14px;
 	margin-bottom: 10px;
 }
 
@@ -92,12 +98,12 @@ p {
 				
 				li {
 					text-align: right;
-					height: 37px;
+					height: 36px;
 					
 					span {
 						height: 40px;
 						padding: 10px;
-						padding-right: 40px;
+						padding-right: 30px;
 						text-align: right;
 						background-color: black;
 						color: white;
@@ -127,17 +133,43 @@ p {
 		#content {
 			margin: 20px;
 			
-			.post {
+			#home h1 {
+				display: none;
+			}
+			
+			.post, .attendee {
 				margin-bottom: 20px;
 				padding-bottom: 10px;
 				border-bottom: 5px solid black;
+				
+				h2 {
+					margin-bottom: 6px;
+				}
+				
 				h2 a {
-          @include link-colors(black);
-          margin-bottom: 15px;
+          			@include link-colors(black);
 				}
 				
 				.date {
-				  color: #999;
+					display: block;
+				 	color: #666;
+					font-size: 12px;
+					line-height: 12px;
+					margin-bottom: 15px;
+				}
+			}
+			
+			.attendee {
+				
+				h2 {
+					padding-top: 2px;
+				}
+				
+				img {
+					float: left;
+					border: 5px solid black;
+					margin-right: 20px;
+					margin-bottom: 20px;
 				}
 			}
 		}
@@ -158,9 +190,9 @@ p {
 			#imprint {
 				margin: 20px;
 				width: 42%;
-				float: left;
+				float: right;
 				font-size: 12px;
-        text-align: right;
+        		text-align: right;
 			}
 		}
 	}

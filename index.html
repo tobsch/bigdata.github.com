@@ -8,8 +8,8 @@ title: Bigdata Roundtable Hamburg
     {% for post in site.posts %}
       <div class="post">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <span class="date">Veröffentlicht am {{ post.date | date_to_string }}</span>
         <p>{{ post.content }}</p>
-        <div class="date">Veröffentlicht am {{ post.date | date_to_string }}</div>
       </div>
     {% endfor %}
   </ul>
