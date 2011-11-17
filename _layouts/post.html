@@ -4,8 +4,7 @@ layout: default
 
 <div class="post">
   <h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
+  <span class="date">Veröffentlicht am {{ post.date | date_to_string }}</span>
   
   <p>{{ content }}</p>
-  
-  <div id="date">Veröffentlicht am {{ page.date | date_to_string }}</div>
 </div>
