@@ -164,6 +164,14 @@ p {
 					line-height: 12px;
 					margin-bottom: 15px;
 				}
+				
+				ul li {
+				  font-weight: bold;
+				  i {
+  				  font-weight: normal;
+				    font-style: italic;
+				  }
+				}
 			}
 			
 			.attendee {
