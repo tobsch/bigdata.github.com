@@ -181,16 +181,17 @@ p {
   margin-bottom: 20px;
   padding-bottom: 10px;
   border-bottom: 5px solid black;
+  min-height: 130px;
 }
-/* line 152, ../_sass/screen.scss */
+/* line 153, ../_sass/screen.scss */
 #wrapper #stage #content .post h2, #wrapper #stage #content .attendee h2 {
   margin-bottom: 10px;
 }
-/* line 156, ../_sass/screen.scss */
+/* line 157, ../_sass/screen.scss */
 #wrapper #stage #content .post h2 a, #wrapper #stage #content .attendee h2 a {
   color: black;
 }
-/* line 160, ../_sass/screen.scss */
+/* line 161, ../_sass/screen.scss */
 #wrapper #stage #content .post .date, #wrapper #stage #content .attendee .date {
   display: block;
   color: #666;
@@ -198,41 +199,41 @@ p {
   line-height: 12px;
   margin-bottom: 15px;
 }
-/* line 168, ../_sass/screen.scss */
+/* line 169, ../_sass/screen.scss */
 #wrapper #stage #content .post ul li, #wrapper #stage #content .attendee ul li {
   font-weight: bold;
 }
-/* line 170, ../_sass/screen.scss */
+/* line 171, ../_sass/screen.scss */
 #wrapper #stage #content .post ul li i, #wrapper #stage #content .attendee ul li i {
   font-weight: normal;
   font-style: italic;
 }
-/* line 179, ../_sass/screen.scss */
+/* line 180, ../_sass/screen.scss */
 #wrapper #stage #content .attendee h2 {
   padding-top: 2px;
 }
-/* line 183, ../_sass/screen.scss */
+/* line 184, ../_sass/screen.scss */
 #wrapper #stage #content .attendee img {
   float: left;
   border: 5px solid black;
   margin-right: 20px;
   margin-bottom: 20px;
 }
-/* line 192, ../_sass/screen.scss */
+/* line 193, ../_sass/screen.scss */
 #wrapper #stage #footer {
   width: 100%;
   height: 120px;
   background-color: black;
   color: white;
 }
-/* line 198, ../_sass/screen.scss */
+/* line 199, ../_sass/screen.scss */
 #wrapper #stage #footer #social_media {
   margin: 20px;
   width: 42%;
   float: left;
   font-size: 12px;
 }
-/* line 205, ../_sass/screen.scss */
+/* line 206, ../_sass/screen.scss */
 #wrapper #stage #footer #imprint {
   margin: 20px;
   width: 42%;
@@ -240,23 +241,23 @@ p {
   font-size: 12px;
   text-align: right;
 }
-/* line 215, ../_sass/screen.scss */
+/* line 216, ../_sass/screen.scss */
 #wrapper #right_bar {
   float: left;
   width: 160px;
   margin-left: 10px;
 }
-/* line 220, ../_sass/screen.scss */
+/* line 221, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors {
   background: white;
   padding: 10px;
   border: 5px solid black;
 }
-/* line 225, ../_sass/screen.scss */
+/* line 226, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors h1 {
   font-size: 16px;
 }
-/* line 229, ../_sass/screen.scss */
+/* line 230, ../_sass/screen.scss */
 #wrapper #right_bar #sponsors a {
   display: block;
   width: 130px;
